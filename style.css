@@ -267,3 +267,89 @@ h3 {
         align-items: flex-start;
     }
 }
+
+/* --- Blog and small utility styles --- */
+.small {
+    font-size: 0.85rem;
+}
+
+.subtle {
+    color: var(--muted);
+}
+
+.blog-list {
+    display: grid;
+    gap: 1rem;
+}
+
+.post-card {
+    background: var(--bg-alt);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1rem 1rem 0.9rem 1rem;
+    box-shadow: 0 6px 16px rgba(7, 36, 72, 0.08);
+}
+
+.post-card h3 {
+    margin-bottom: 0.2rem;
+}
+
+.post-meta {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin-bottom: 0.4rem;
+}
+
+.post-meta .date {
+    color: var(--muted);
+}
+
+details > summary {
+    cursor: pointer;
+    color: var(--accent-strong);
+}
+
+details > summary:hover {
+    text-decoration: underline;
+}
+
+/* Timeline styles */
+.timeline {
+    margin-top: 0.8rem;
+    padding-left: 1rem;
+    border-left: 2px solid var(--border);
+}
+
+.timeline-item {
+    position: relative;
+    margin: 0 0 0.9rem 0;
+    padding-left: 0; /* text starts after .timeline padding-left */
+}
+
+.timeline-item::before {
+    content: "";
+    position: absolute;
+    left: calc(-1rem - 5px); /* center dot on the left border */
+    top: 0.55rem;
+    width: 10px;
+    height: 10px;
+    background: var(--accent);
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px #fff;
+    border: 1px solid rgba(7, 36, 72, 0.15);
+}
+
+.timeline-date {
+    font-weight: 600;
+    color: var(--c6);
+    font-size: 0.9rem;
+}
+
+.timeline-content {
+    color: var(--muted);
+    font-size: 0.93rem;
+    margin-top: 0.15rem;
+}
