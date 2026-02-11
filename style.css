@@ -12,9 +12,9 @@
     --bg-alt: #ffffff;
     --bg-alt-soft: #f8f5ff;
 
-    --accent: var(--c5);
+    --accent: var(--c1);
     --accent-soft: rgba(23, 175, 181, 0.18);
-    --accent-strong: var(--c6);
+    --accent-strong: var(--c2);
     --accent-warm: var(--c2);
     --accent-gold: var(--c3);
 
@@ -112,7 +112,7 @@ nav {
     background: linear-gradient(135deg, var(--accent), var(--accent-strong));
     color: #fff;
     border-color: transparent;
-    box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
 }
 
 .tab-link.active span.dot {
@@ -142,7 +142,9 @@ main {
     display: block;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     margin-top: 0;
     font-weight: 600;
 }
@@ -251,7 +253,10 @@ h3 {
 }
 
 @media (max-width: 900px) {
-    .hero, .two-col, .contact-grid {
+
+    .hero,
+    .two-col,
+    .contact-grid {
         grid-template-columns: 1fr;
     }
 
@@ -307,12 +312,12 @@ h3 {
     color: var(--muted);
 }
 
-details > summary {
+details>summary {
     cursor: pointer;
     color: var(--accent-strong);
 }
 
-details > summary:hover {
+details>summary:hover {
     text-decoration: underline;
 }
 
@@ -326,13 +331,15 @@ details > summary:hover {
 .timeline-item {
     position: relative;
     margin: 0 0 0.9rem 0;
-    padding-left: 0; /* text starts after .timeline padding-left */
+    padding-left: 0;
+    /* text starts after .timeline padding-left */
 }
 
 .timeline-item::before {
     content: "";
     position: absolute;
-    left: calc(-1rem - 5px); /* center dot on the left border */
+    left: calc(-1rem - 5px);
+    /* center dot on the left border */
     top: 0.55rem;
     width: 10px;
     height: 10px;
