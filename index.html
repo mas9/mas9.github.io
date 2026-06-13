@@ -3,10 +3,18 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Miguel Ángel Sánchez Martínez – Theoretical Condensed Matter Physics</title>
+    <title>Miguel Ángel Sánchez Martínez — Theoretical Condensed Matter Physics</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Miguel Ángel Sánchez Martínez">
     <meta name="description"
-        content="Professional webpage of Miguel Ángel Sánchez Martínez, researcher in theoretical condensed matter physics. Research, publications, and contact information.">
+        content="Miguel Ángel Sánchez Martínez — postdoctoral researcher in theoretical condensed matter physics at the University of Bristol. Topological matter, superconductivity, multifold fermions and quasicrystals.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Miguel Ángel Sánchez Martínez — Theoretical Condensed Matter Physics">
+    <meta property="og:description" content="Topological matter, superconductivity, multifold fermions and quasicrystals.">
+    <meta property="og:image" content="https://masanchezmartinez.com/figures/photo_optimized.jpg">
+    <meta property="og:url" content="https://masanchezmartinez.com/">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23107c81'/><text x='50' y='72' font-size='62' text-anchor='middle' fill='white' font-family='Georgia,serif'>&#968;</text></svg>">
     <!-- Link the external stylesheet -->
     <link rel="stylesheet" href="style.css">
     <!-- Google tag (gtag.js) -->
@@ -21,785 +29,245 @@
 </head>
 
 <body>
+    <a class="skip-link" href="#about">Skip to content</a>
     <header>
         <div class="nav-inner">
-            <div class="nav-brand">Miguel Ángel Sánchez Martínez</div>
+            <div class="brand"><span class="glyph">ψ</span> Miguel Á. Sánchez Martínez</div>
             <nav>
-                <a href="#about" class="tab-link active" data-tab-target="about"><span class="dot"></span> About</a>
-                <a href="#research" class="tab-link" data-tab-target="research"><span class="dot"></span> Research</a>
-                <a href="#news & blog" class="tab-link" data-tab-target="news"><span class="dot"></span> News</a>
-                <a href="#publications" class="tab-link" data-tab-target="publications"><span class="dot"></span>
-                    Publications</a>
-                <!-- <a href="#teaching" class="tab-link" data-tab-target="teaching"><span class="dot"></span> Teaching</a> -->
-                <!-- <a href="#talks" class="tab-link" data-tab-target="talks"><span class="dot"></span> Talks</a> -->
-                <a href="#students" class="tab-link" data-tab-target="students"><span class="dot"></span> Students</a>
-                <a href="#contact" class="tab-link" data-tab-target="contact"><span class="dot"></span> CV & Contact</a>
+                <a href="#about">About</a>
+                <a href="#research">Research</a>
+                <a href="#publications">Publications</a>
+                <!-- <a href="#talks">Talks</a> -->
+                <a href="#news">News</a>
+                <a href="#students">Students</a>
+                <a href="#contact">Contact</a>
             </nav>
         </div>
     </header>
+
     <main>
-        <!-- ABOUT TAB -->
-        <section id="about" class="tab-panel active">
-            <div class="hero">
-                <div class="hero-left">
-                    <div class="hero-highlight">Theoretical condensed matter physics</div>
+        <!-- HERO / ABOUT -->
+        <section id="about" style="border-bottom:none;padding-bottom:0">
+            <div class="hero" style="padding-top:1rem">
+                <div>
+                    <span class="kicker">Theoretical Condensed Matter Physics</span>
                     <h1>Miguel Ángel Sánchez Martínez</h1>
-                    <p class="hero-tagline">
-                        Theoretical condensed matter physicist working on topological matter, superconductivity, and
-                        experimental signatures.
-                    </p>
-                    <p>
-                        I am a <strong>Postdoctoral Research Associate</strong> in Dr. Felix Flicker’s group at the
-                        <strong>H.H. Wills Physics Laboratory</strong>, <strong>University of Bristol</strong>,
-                        funded by the EPSRC grant “Exact Results in Aperiodic Systems”. My work lies at the
-                        intersection of topological quantum matter, superconductivity, and aperiodic systems,
-                        aiming to connect theory and experiment.
-                    </p>
-                    <p class="hero-meta">
-                        Recent topics: multifold fermions and nonlinear optics, chiral/nematic superconductors
-                        and optical probes in TMDs, strong correlations and disorderd metals, and
-                        Majorana modes and fractal phase transitions in quasicrystals.
-                    </p>
+                    <p class="hero-sub">Topological matter, superconductivity, and Majorana modes for quantum computing — connecting theory to experiment.</p>
+                    <p class="lead">Postdoctoral Research Associate in Dr. Felix Flicker's group at the H.H. Wills Physics Laboratory, University of Bristol — funded by the EPSRC grant <em>"Exact Results in Aperiodic Systems."</em></p>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="sanchez_martinez_miguel_angel_2026_05_cv.pdf" target="_blank" rel="noopener">↓ Download CV</a>
+                        <a class="btn btn-ghost" href="https://scholar.google.com/citations?user=tkk4ah8AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+                        <a class="btn btn-ghost" href="https://orcid.org/0000-0003-4907-7466" target="_blank" rel="noopener">ORCID</a>
+                        <a class="btn btn-ghost" href="https://arxiv.org/a/sanchezmartinez_m_1.html" target="_blank" rel="noopener">arXiv</a>
+                    </div>
                 </div>
-                <div class="hero-right">
-                    <img src="figures/photo_optimized.jpg" alt="Miguel Ángel Sánchez Martínez" class="hero-img"
-                        style="width: 70%; height: auto; display: block; margin: 0 auto;">
-                    <dl>
-                        <dt>Affiliation</dt>
-                        <dd>
-                            H.H. Wills Physics Laboratory<br>
-                            University of Bristol<br>
-                            Tyndall Avenue, Bristol BS8 1TL, United Kingdom
-                        </dd>
-                        <dt>Email</dt>
-                        <dd><a href="mailto:contact@masanchezmartinez.com">contact@masanchezmartinez.com</a></dd>
-                        <dt>Profiles</dt>
-                        <dd class="hero-links">
-                            <a class="pill-link" href="https://scholar.google.com/citations?user=tkk4ah8AAAAJ&hl=en"
-                                target="_blank" rel="noopener">Google Scholar</a>
-                            <a class="pill-link" href="https://orcid.org/0000-0003-4907-7466" target="_blank"
-                                rel="noopener">ORCID</a>
-                            <a class="pill-link" href="https://arxiv.org/a/sanchezmartinez_m_1.html" target="_blank"
-                                rel="noopener">arXiv</a>
-                            <!-- <a class="pill-link" href="https://github.com/mas9" target="_blank"
-                                rel="noopener">GitHub</a> -->
-                        </dd>
-                    </dl>
+                <div class="hero-photo-wrap">
+                    <img class="hero-photo" src="figures/photo_optimized.jpg" alt="Portrait of Miguel Ángel Sánchez Martínez">
                 </div>
             </div>
-            <h3>Trajectory</h3>
-            <ul class="timeline">
-                <li class="timeline-item">
-                    <div class="timeline-date">2023–Present</div>
-                    <div class="timeline-content">
-                        Postdoctoral Research Associate, H.H. Wills Physics Laboratory, University of Bristol (<a
-                            href="https://www.felixflicker.com/" target="_blank" rel="noopener">Dr. Felix
-                            Flicker</a>).<br>
-                        Topic: Topological properties and strong correlations in aperiodic systems. Funded by EPSRC
-                        “Exact Results in Aperiodic Systems”.
-                    </div>
-                </li>
-                <li class="timeline-item">
-                    <div class="timeline-date">2022–2023</div>
-                    <div class="timeline-content">
-                        Postdoctoral Researcher, Donostia International Physics Center (DIPC), San Sebastián (<a
-                            href="https://ferdejuan.dipc.org/" target="_blank" rel="noopener">Dr.
-                            Fernando de Juan</a>).<br>
-                        Topic: Optical properties and chiral superconductivity in transition metal dichalcogenides.
-                    </div>
-                </li>
-                <li class="timeline-item">
-                    <div class="timeline-date">03–06/2020</div>
-                    <div class="timeline-content">
-                        Research Intern, Microsoft Station Q, Santa Barbara.<br>
-                        Topic: Charge dynamics of superconducting islands proximity-coupled to metallic leads (Majorana
-                        physics).<br>
-                        Supervisor: <a href="https://www.microsoft.com/en-us/research/people/anantipo/" target="_blank"
-                            rel="noopener">Dr. Andrey Antipov</a>.
-                    </div>
-                </li>
-                <li class="timeline-item">
-                    <div class="timeline-date">10–12/2019</div>
-                    <div class="timeline-content">
-                        Industrial Secondment (GreQue PhD Fellowship), Microsoft Station Q, Santa Barbara.<br>
-                        Topic: Localisation of electrons in topological 3D semimetals.<br>
-                        Supervisor: <a href="https://www.microsoft.com/en-us/research/people/anantipo/" target="_blank"
-                            rel="noopener">Dr. Andrey Antipov</a>.
-                    </div>
-                </li>
-                <li class="timeline-item">
-                    <div class="timeline-date">2018–2021</div>
-                    <div class="timeline-content">
-                        PhD in Condensed Matter Physics, Université Grenoble Alpes. Marie Curie fellow (GreQue COFUND)
-                        at Néel Institute, CNRS.<br>
-                        Thesis: Linear and nonlinear optical responses of chiral multifold semimetals. Award: Springer
-                        Theses (2022).
-                        <br>
-                        Supervisors: <a href="https://grushingroup.cnrs.fr" target="_blank" rel="noopener">Dr.
-                            Adolfo G. Grushin</a> and <a href="http://perso.neel.cnrs.fr/serge.florens/florens.html"
-                            target="_blank" rel="noopener">Dr. Serge Florens</a>.
-                    </div>
-                </li>
-            </ul>
+
+            <div class="facts-band">
+                <div class="fact"><div class="k">Role</div><div class="v">Postdoctoral Research Associate</div></div>
+                <div class="fact"><div class="k">Institution</div><div class="v">University of Bristol</div></div>
+                <div class="fact"><div class="k">Group</div><div class="v">Felix Flicker · H.H. Wills Lab</div></div>
+                <div class="fact"><div class="k">Award</div><div class="v">Springer Theses, 2022</div></div>
+            </div>
+
+            <div style="padding:2.5rem 0 1rem">
+                <p>My work lies at the intersection of topological quantum matter, superconductivity, and aperiodic systems. A central thread is connecting theory and experiment through observables accessible in transport, linear optics and nonlinear optical experiments. I am also drawn to topological matter in quasicrystals, with a focus on Majorana modes for quantum computing. Recent topics span multifold fermions and nonlinear optics, chiral and nematic superconductors and their optical probes, strong correlations in disordered metals, and Majorana modes and fractal phase transitions in quasicrystals.</p>
+            </div>
+
+            <h3 style="margin-top:1rem">Trajectory</h3>
+            <div class="timeline" style="margin-top:1rem">
+                <div class="tl"><div class="when">2023 — Present</div><div class="what">Postdoctoral Research Associate · University of Bristol</div><div class="desc">Flicker group, H.H. Wills Physics Laboratory. Topological properties and strong correlations in aperiodic systems. EPSRC "Exact Results in Aperiodic Systems."</div></div>
+                <div class="tl"><div class="when">2022 — 2023</div><div class="what">Postdoctoral Researcher · DIPC, San Sebastián</div><div class="desc">With <a href="https://ferdejuan.dipc.org/" target="_blank" rel="noopener">Fernando de Juan</a>. Optical properties and chiral superconductivity in transition metal dichalcogenides.</div></div>
+                <div class="tl"><div class="when">2019 — 2020</div><div class="what">Research Intern &amp; Industrial Secondment · Microsoft Station Q</div><div class="desc">With <a href="https://www.microsoft.com/en-us/research/people/anantipo/" target="_blank" rel="noopener">Andrey Antipov</a>, Santa Barbara. Majorana physics and localisation in topological 3D semimetals.</div></div>
+                <div class="tl"><div class="when">2018 — 2021</div><div class="what">PhD in Condensed Matter Physics · Université Grenoble Alpes</div><div class="desc">Marie Curie fellow (GreQue COFUND) at Néel Institute, CNRS, with <a href="https://grushingroup.cnrs.fr" target="_blank" rel="noopener">A. G. Grushin</a> &amp; <a href="http://perso.neel.cnrs.fr/serge.florens/florens.html" target="_blank" rel="noopener">S. Florens</a>. Springer Theses Award (2022).</div></div>
+            </div>
         </section>
 
-        <!-- RESEARCH TAB -->
-        <section id="research" class="tab-panel">
+        <!-- RESEARCH -->
+        <section id="research">
             <h2>Research</h2>
-            <p>
-                My research focuses on various aspects of theoretical condensed matter physics, with a particular
-                emphasis on topological systems and unconventional superconductors. A central part of my work is
-                connecting theory and experiment, with a focus on observables accessible in transport, linear optics,
-                and nonlinear optical experiments. I also have a strong interest in the physics of topological matter
-                in quasicrystals, with a focus on Majorana modes for quantum computing.
-            </p>
-
-            <div class="research-list">
-                <h2>Current research directions</h2>
-                <div class="research-item">
-                    <!-- <img src="path/to/superconductivity-image.jpg" alt="Topological matter in quasicrystals"> -->
-                    <div class="research-content">
-                        <h3>Topological matter in quasicrystals: Majorana modes for quantum computing</h3>
-                        <p>Emergence of Majorana modes in quasiperiodic systems, such as 1D Kitaev chains with
-                            quasicrystalline symmetries. Fractal spectra and topological phase transitions in
-                            aperiodic lattices. Higher-order topological quasiparticles in quasicrystalline systems.
-                        </p>
-                        <img src="figures/Figure_3.jpg" alt="Majorana modes"
-                            style="width: 40%; height: auto; display: block; margin: 0 auto;">
+            <div class="research">
+                <article class="rcard">
+                    <div class="rtxt">
+                        <h3>Topological matter in quasicrystals</h3>
+                        <p>Majorana modes for quantum computing in quasiperiodic systems — 1D Kitaev chains with quasicrystalline symmetries, fractal spectra and topological phase transitions in aperiodic lattices, and higher-order topological quasiparticles.</p>
+                        <div class="tags"><span class="tag">Majorana</span><span class="tag">quasicrystals</span><span class="tag">quantum computing</span></div>
                     </div>
-                </div>
-                <div class="research-item">
-                    <div class="research-content">
+                    <div class="rmedia"><img src="figures/Figure_3.jpg" alt="Fractal topological invariants of Majorana bound states in quasicrystalline lattices"></div>
+                </article>
+                <article class="rcard">
+                    <div class="rtxt">
                         <h3>Unconventional superconductivity</h3>
-                        <p>Optical probes of pairing in superconductors, chiral/nematic order, other optical signatures
-                            of unconventional superconductivity charactersing the topological
-                            phases<sub>2</sub>RuO<sub>4</sub>.
-                        </p>
-                        <img src="figures/optical_responses_sc.jpg" alt="Unconventional superconductivity"
-                            style="width: 40%; height: auto; display: block; margin: 0 auto;">
+                        <p>Optical probes of pairing in unconventional superconductors: chiral and nematic order, and optical signatures that characterise topological superconducting phases. Momentum-relaxation cutoffs for collective modes (Pines' demon) in Sr<sub>2</sub>RuO<sub>4</sub>.</p>
+                        <div class="tags"><span class="tag">superconductivity</span><span class="tag">optics</span><span class="tag">collective modes</span></div>
                     </div>
-                </div>
-                <div class="research-item">
-                    <div class="research-content">
-                        <h3>Topological quasiparticles in chiral/multifold semimetals</h3>
-                        <p>Linear and nonlinear optical response (e.g. SHG), circular photogalvanic effect, and
-                            transport/optical fingerprints of multifold fermions (CoSi, RhSi).</p>
-                        <img src="figures/multifolds_new_aplanada.jpg" alt="Topological quasiparticles"
-                            style="width: 70%; height: auto; display: block; margin: 0 auto;">
-                    </div>
-                </div>
-
-                <!-- </div>
-                <div class="research-item">
-                    <img src="path/to/superconductivity-image.jpg" alt="Unconventional superconductivity">
-                    <div class="research-content">
-                        <h3>Unconventional superconductivity</h3>
-                        <p>Optical probes of pairing in TMD superconductors, chiral/nematic order, and momentum
-                            relaxation cutoffs for collective modes (Pines’ demon) in Sr<sub>2</sub>RuO<sub>4</sub>.
-                        </p>
-                    </div>
-                </div> -->
-                <!-- <div>
-                    <h3>Current research directions</h3>
-                    <ul>
-                        <li><strong>Topological quasiparticles in chiral/multifold semimetals</strong><br>
-                            Linear and nonlinear optical response (e.g. SHG), circular photogalvanic effect,
-                            and transport/optical fingerprints of multifold fermions (CoSi, RhSi).
-                        </li>
-                        <li><strong>Unconventional superconductivity</strong><br>
-                            Optical probes of pairing in TMD superconductors, chiral/nematic order, and momentum
-                            relaxation cutoffs for collective modes (Pines’ demon) in Sr<sub>2</sub>RuO<sub>4</sub>.
-                        </li>
-                        <li><strong>Topological matter in quasicrystals</strong><br>
-                            Quasiperiodic Kitaev chains and quasicrystalline symmetries: Majorana modes, fractal
-                            spectra, and topological phase transitions in aperiodic lattices.
-                        </li>
-                        <li><strong>Dynamical responses and momentum relaxation in the disordered metals</strong><br>
-                            Numerical calculation of Lindhard susceptibilities and dielectric functions in 2D and 3D,
-                            including relaxation, finite temperature, and pole tracking in the complex plane.
-                        </li>
-                    </ul>
-                </div> -->
-                <!-- <div>
-                    <h3>Methods and tools</h3>
-                    <ul>
-                        <li> Under construction</li>
-                    </ul>
-
-                    <p class="small subtle">
-                        For a more detailed overview of my research activities, please see my
-                        <a href="#contact" data-tab-target="contact" class="tab-link-inline">CV</a> or my arXiv profile.
-                    </p>
-                </div> -->
-            </div>
-        </section>
-
-        <!-- NEWS TAB -->
-        <section id="news" class="tab-panel">
-            <h2>News & Blog</h2>
-            <p class="subtle small">
-                Notes on research and non‑research topics. <!-- this space for short write‑ups, project notes,
-            reading highlights, travel reports, or anything you want to share. -->
-            </p>
-
-            <div class="blog-list">
-
-                <article class="post-card">
-                    <h3>It took 67 years to discover Pines' demon. Our work shows that it is something even more
-                        unusual!</h3>
-                    <div class="post-meta">
-                        <span class="label">Research</span>
-                        <span class="date">Feb 2026</span>
-                    </div>
-                    <p>
-                        Pines' demon was predicted to exist in 1956, but it took 67 years to discover it in 2023. Our
-                        work shows that it is something even more unusual! The first report of this quasiparticle in
-                        Sr2RuO4 shows some discrepancies with the acoustic dispersion relation that the demon should
-                        follow. Here we show that the demon suffers a universal effect from momentum relaxation: it
-                        develops a momentum gap (similar to that of a tachyon!?). Check out the preprint here!: <a
-                            href="https://doi.org/10.48550/arXiv.2603.17002" target="_blank"
-                            rel="noopener">arXiv:2603.17002</a>
-                        <!-- </p>
-                    <details>
-                        <summary>Read more</summary>
-                        <p>
-                            One of my main interests is finding a connection between interesting theoretical ideas and
-                            their experimental signatures. Some materials...
-                        </p>
-                    </details> -->
+                    <div class="rmedia"><img src="figures/optical_responses_sc.jpg" alt="Momentum-resolved optical conductivity of an unconventional superconductor"></div>
                 </article>
-
-                <article class="post-card">
-                    <h3>Our work on Herbertsmithite is accepted in Nature Physics!</h3>
-                    <div class="post-meta">
-                        <span class="label">Research</span>
-                        <span class="date">Feb 2026</span>
+                <article class="rcard">
+                    <div class="rtxt">
+                        <h3>Chiral / multifold semimetals</h3>
+                        <p>Linear and nonlinear optical response (e.g. second-harmonic generation), the circular photogalvanic effect, and transport / optical fingerprints of multifold fermions in CoSi and RhSi.</p>
+                        <div class="tags"><span class="tag">multifold fermions</span><span class="tag">nonlinear optics</span><span class="tag">CoSi · RhSi</span></div>
                     </div>
-                    <p>
-                        Our work on Herbertsmithite has been accepted in Nature Physics! Check out the preprint here: <a
-                            href="https://arxiv.org/abs/2510.11678" target="_blank" rel="noopener">arXiv:2510.11678</a>
-                        <!-- </p>
-                    <details>
-                        <summary>Read more</summary>
-                        <p>
-                            One of my main interests is finding a connection between interesting theoretical ideas and
-                            their experimental signatures. Some materials...
-                        </p>
-                    </details> -->
-                </article>
-
-                <article class="post-card">
-                    <h3>Uncovering the fractal topology of Majoranas in quasicrystals</h3>
-                    <div class="post-meta">
-                        <span class="label">Research</span>
-                        <span class="date">Feb 2026</span>
-                    </div>
-                    <p>
-                        We recently submitted a paper on the fractal topology of Majoranas in quasicrystals. Some really
-                        interesting results! Check it here: <a href="https://arxiv.org/abs/2602.02796" target="_blank"
-                            rel="noopener">arXiv:2602.02796</a>
-                        <!-- </p>
-                    <details>
-                        <summary>Read more</summary>
-                        <p>
-                            One of my main interests is finding a connection between interesting theoretical ideas and
-                            their experimental signatures. Some materials...
-                        </p>
-                    </details> -->
-                </article>
-
-
-                <article class="post-card">
-                    <h3>Using light to test topological superconductivity</h3>
-                    <div class="post-meta">
-                        <span class="label">Research</span>
-                        <span class="date">Feb 2026</span>
-                    </div>
-                    <p>
-                        Our most recent work on using light to test topological superconductivity has been published in
-                        Physical Review B! You can find it here (it's open access!): <a
-                            href="https://doi.org/10.1103/s1wd-25dz" target="_blank"
-                            rel="noopener">https://doi.org/10.1103/s1wd-25dz</a><br>
-                        The code developed for this work is also published in open access in Zenodo, check it here!:
-                        <a href="https://doi.org/10.5281/zenodo.18436728" target="_blank"
-                            rel="noopener">https://doi.org/10.5281/zenodo.18436728</a>
-                    </p>
-                    <!-- <details>
-                        <summary>Read more</summary>
-                        <p>
-                            One of my main interests is finding a connection between interesting theoretical ideas and
-                            their experimental signatures. Some materials...
-                        </p>
-                    </details> -->
-                </article>
-
-                <!--<article class="post-card">
-                <h3>Science notes: travel, productivity, and community</h3>
-                <div class="post-meta">
-                    <span class="label">Non‑research</span>
-                    <span class="date">Oct 2025</span>
-                </div>
-                <p>
-                    A short reflection on balancing conference travel with deep work, and small habits that
-                    help make group discussions more inclusive and productive.
-                </p>
-                <details>
-                    <summary>Read more</summary>
-                    <p>
-                        I’ve found batching trips and setting explicit “offline blocks” keeps momentum on
-                        ongoing projects. For group meetings, lightweight pre‑reads and rotating chairs help
-                        quieter voices join in. None of this is universal—these are just notes that worked for
-                        me this term.
-                    </p>
-                </details>
-            </article>-->
-                <article class="post-card">
-                    <h3>Julia Hannukainen's report: all-female speaker line-up in condensed matter</h3>
-                    <div class="post-meta">
-                        <span class="label">Research</span>
-                        <span class="date">Oct 2025</span>
-                    </div>
-                    <p>
-                        Our colleague Julia Hannukainen has written a fantastic piece on her attendance to the Grete
-                        Hermann Network workshop. You can read it here: <a
-                            href="https://www.nature.com/articles/s42254-025-00872-y">Meeting report: all-female speaker
-                            line-up in condensed matter</a>
-                    </p>
+                    <div class="rmedia"><img src="figures/multifolds_new_aplanada.jpg" alt="Band structures of Weyl, double-Weyl, threefold, sixfold and fourfold multifold fermions"></div>
                 </article>
             </div>
         </section>
 
-        <!-- PUBLICATIONS TAB -->
-        <section id="publications" class="tab-panel">
+        <!-- PUBLICATIONS -->
+        <section id="publications">
             <h2>Publications</h2>
-            <p class="subtle">
-                This is a short selection of representative papers. For a complete list,
-                please refer to my profiles on <a href="https://scholar.google.com/citations?user=tkk4ah8AAAAJ&hl=en"
-                    target="_blank" rel="noopener">Google Scholar</a> or
-                <a href="https://arxiv.org/a/sanchezmartinez_m_1.html" target="_blank" rel="noopener">arXiv</a>.
-            </p>
+            <p>A selection of representative work. For the complete list, see <a href="https://scholar.google.com/citations?user=tkk4ah8AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a> or <a href="https://arxiv.org/a/sanchezmartinez_m_1.html" target="_blank" rel="noopener">arXiv</a>.</p>
 
-            <h3>Superconductivity, strong correlations and collective modes</h3>
-            <ul class="pub-list">
-                <li>
-                    <strong>Momentum-gapped quasiparticles in disordered metals</strong><br>
-                    M. Á. Sánchez‑Martínez, B. Goutéraux, L. Rademaker, F. Flicker.<br>
-                    <span class="label">collective modes</span>
-                    <span class="label">Sr<sub>2</sub>RuO<sub>4</sub></span><br>
-                    <span class="small"><a href="https://arxiv.org/abs/2603.17002" target="_blank"
-                            rel="noopener">https://arxiv.org/abs/2603.17002</a></span>
-                </li>
-                <li>
-                    <strong>Spinon mediation of witness‑spin dynamics and ground state in herbertsmithite</strong><br>
-                    H. Takahashi, J. Murphy, M. Wood‑Thanan, P. Puphal, M. Á. Sánchez‑Martínez, F. Jerzembeck,
-                    C.C. Hsu, J. Ward, M. Isobe, Y. Matsumoto, H. Takagi, S. Blundell, M. Norman, F. Flicker,
-                    J.C. Séamus Davis.<br>
-                    <em>Accepted in Nature Physics</em> (2026).
-                    <span class="label">spin liquids</span>
-                    <span class="label">herbertsmithite</span><br>
-                    <span class="small"><a href="https://arxiv.org/abs/2510.11678" target="_blank"
-                            rel="noopener">https://arxiv.org/abs/2510.11678</a></span>
-                </li>
-                <li>
-                    <strong>Optical probes of unconventional pairing states in transition metal
-                        dichalcogenides</strong><br>
-                    M. Á. Sánchez‑Martínez, D. Muñoz‑Segovia, F. de Juan.<br>
-                    <em>Physical Review B</em> (2026).
-                    <span class="label">superconductivity</span>
-                    <span class="label">optics</span><br>
-                    <span class="small"><a href="https://journals.aps.org/prb/accepted/10.1103/s1wd-25dz"
-                            target="_blank"
-                            rel="noopener">https://journals.aps.org/prb/accepted/10.1103/s1wd-25dz</a></span>
-                </li>
-            </ul>
-
-            <h3>Topological quasicrystalline matter</h3>
-            <ul class="pub-list">
-                <li>
-                    <strong>Fractal Topology of Majorana Bound States in Superconducting Quasicrystals</strong><br>
-                    W. Caiger, F. Flicker, M. Á. Sánchez‑Martínez.<br>
-                    <em>arXiv preprint</em> (2026).
-                    <span class="label">Majorana fermions</span>
-                    <span class="label">superconductivity</span>
-                    <span class="label">quasicrystals</span><br>
-                    <span class="small"><a href="https://doi.org/10.48550/arXiv.2602.02796" target="_blank"
-                            rel="noopener">https://doi.org/10.48550/arXiv.2602.02796</a></span>
-                </li>
-                <li>
-                    <strong>Giant optical response of multi‑Weyl fermions stabilized by quasicrystalline
-                        symmetries</strong><br>
-                    M. Á. Sánchez‑Martínez, I.C. Fulga, D. Varjas, A.G. Grushin, F. Flicker.<br>
-                    <em>In preparation</em> (2026).
-                    <span class="label">quasicrystals</span>
-                    <span class="label">optics</span>
-                </li>
-            </ul>
-
-
-            <h3>Topological multifold fermions and nonlinear optics</h3>
-            <ul class="pub-list">
-                <li>
-                    <strong>Second‑harmonic generation in the topological multifold semimetal RhSi</strong><br>
-                    B. Lu, S. Sayyad, M. Á. Sánchez‑Martínez, K. Manna, C. Felser, A.G. Grushin, D. Torchinsky.<br>
-                    <em>Phys. Rev. Research</em> <strong>4</strong>, L022022 (2022).
-                    <span class="label">SHG</span>
-                    <span class="label">multifold fermions</span><br>
-                    <span class="small"><a href="https://doi.org/10.1103/PhysRevResearch.4.L022022" target="_blank"
-                            rel="noopener">https://doi.org/10.1103/PhysRevResearch.4.L022022</a></span>
-                </li>
-                <li>
-                    <strong>Optical signatures of multifold fermions in the chiral topological semimetal
-                        CoSi</strong><br>
-                    B. Xu*, Z. Fang*, M. Á. Sánchez‑Martínez*, J.W.F. Venderbos, Z. Ni, T. Qiu, K. Manna, W. Wang,
-                    J. Paglione, C. Bernhard, C. Felser, E.J. Mele, A.G. Grushin, A.M. Rappe, L. Wu.<br>
-                    <em>PNAS</em> <strong>2020</strong>, 2010752117 (2020).
-                    <span class="label">multifold fermions</span>
-                    <span class="label">optics</span><br>
-                    <span class="small"><a href="https://doi.org/10.1073/pnas.2010752117" target="_blank"
-                            rel="noopener">https://doi.org/10.1073/pnas.2010752117</a></span>
-                </li>
-                <li>
-                    <strong>Linear and nonlinear optical responses in the chiral multifold semimetal RhSi</strong><br>
-                    Z. Ni, B. Xu, M. Á. Sánchez‑Martínez, Y. Zhang, K. Manna, C. Bernhard, J.W.F. Venderbos,
-                    F. de Juan, C. Felser, A.G. Grushin, L. Wu.<br>
-                    <em>npj Quantum Materials</em> <strong>5</strong>, 96 (2020).
-                    <span class="label">nonlinear optics</span>
-                    <span class="label">multifold fermions</span><br>
-                    <span class="small"><a href="https://doi.org/10.1038/s41535-020-00187-y" target="_blank"
-                            rel="noopener">https://doi.org/10.1038/s41535-020-00187-y</a></span>
-                </li>
-                <li>
-                    <strong>Linear optical conductivity of chiral multifold fermions</strong><br>
-                    M.‑Á. Sánchez‑Martínez, F. de Juan, A.G. Grushin.<br>
-                    <em>Phys. Rev. B</em> <strong>99</strong>, 155145 (2019).
-                    <span class="label">theory</span>
-                    <span class="label">multifold fermions</span><br>
-                    <span class="small"><a href="https://doi.org/10.1103/PhysRevB.99.155145" target="_blank"
-                            rel="noopener">https://doi.org/10.1103/PhysRevB.99.155145</a></span>
-                </li>
-
-            </ul>
-
-            <h3>Other publications</h3>
-            <ul class="pub-list">
-                <li>
-                    <strong>Linear and nonlinear optical responses of chiral multifold semimetals</strong><br>
-                    M. Á. Sánchez‑Martínez.<br>
-                    <em>Springer Theses Series</em>, Springer‑Nature, Cham (2023).
-                    <span class="label">book</span><br>
-                    <span class="small"><a href="https://link.springer.com/book/10.1007/978-3-031-25771-1"
-                            target="_blank"
-                            rel="noopener">https://link.springer.com/book/10.1007/978-3-031-25771-1</a></span>
-                </li>
-                <li>
-                    <strong>Spectral and optical properties of Ag<sub>3</sub>Au(Se<sub>2</sub>,Te<sub>2</sub>) and dark
-                        matter detection</strong><br>
-                    M.‑Á. Sánchez‑Martínez*, I. Robredo*, A. Bidaurrazaga, A. Bergara, F. de Juan, A.G. Grushin,
-                    M.G. Vergniory.<br>
-                    <em>J. Phys. Mater.</em> <strong>3</strong>, 014001 (2019).
-                    <span class="label">spectral</span>
-                    <span class="label">optics</span><br>
-                    <span class="small"><a href="https://doi.org/10.1088/2515-7639/ab3ea2" target="_blank"
-                            rel="noopener">https://doi.org/10.1088/2515-7639/ab3ea2</a></span>
-                </li>
-                <li>
-                    <strong>Impact of the regularization parameter in the mean free path reconstruction method:
-                        Nanoscale heat transport and beyond</strong><br>
-                    M.-Á. Sánchez‑Martínez, F. Alzina, J. Oyarzo, C.M. Sotomayor Torres, E. Chavez‑Angel.<br>
-                    <em>Nanomaterials</em> <strong>9</strong>, 414 (2019).
-                    <span class="label">nanoscale heat</span>
-                    <span class="label">phonons</span><br>
-                    <span class="small"><a href="https://doi.org/10.3390/nano9030414" target="_blank"
-                            rel="noopener">https://doi.org/10.3390/nano9030414</a></span>
-                </li>
-            </ul>
-        </section>
-
-        <!-- TEACHING TAB
-        <section id="teaching" class="tab-panel">
-        <h2>Teaching</h2>
-
-        <div class="two-col">
-            <div>
-                <h3>Courses</h3>
-                <ul>
-                    <li>
-                        <strong>Introduction to theoretical condensed matter</strong><br>
-                        Level: Master’s / PhD · University · Year(s).<br>
-                        <span class="small">
-                            Topics: spin models, strongly correlated electrons, linear response,
-                            and basic notions of topology in solids.
-                        </span>
-                    </li>
-                    <li>
-                        <strong>Numerical methods in condensed matter physics</strong><br>
-                        Level: Master’s · University · Year(s).<br>
-                        <span class="small">
-                            Julia/Python for Brillouin-zone integrals, BdG Hamiltonian diagonalization,
-                            Green’s functions and optical conductivity.
-                        </span>
-                    </li>
-                </ul>
+            <div class="pub-group">
+                <h3>Superconductivity, strong correlations &amp; collective modes</h3>
+                <div class="pub"><div class="pub-title">Momentum-gapped quasiparticles in disordered metals</div><div class="pub-auth"><span class="me">M. Á. Sánchez-Martínez</span>, B. Goutéraux, L. Rademaker, F. Flicker.</div><div class="pub-venue">arXiv preprint (2026).</div><div class="pub-foot"><span class="tag">collective modes</span><span class="tag">Sr₂RuO₄</span><a class="doi" href="https://arxiv.org/abs/2603.17002" target="_blank" rel="noopener">arXiv</a></div></div>
+                <div class="pub"><div class="pub-title">Spinon mediation of witness-spin dynamics and ground state in herbertsmithite</div><div class="pub-auth">H. Takahashi, J. Murphy, M. Wood-Thanan, P. Puphal, <span class="me">M. Á. Sánchez-Martínez</span>, et al., J. C. Séamus Davis.</div><div class="pub-venue">Nature Physics (2026).</div><div class="pub-foot"><span class="tag">spin liquids</span><span class="tag">herbertsmithite</span><a class="doi" href="https://www.nature.com/articles/s41567-026-03303-6" target="_blank" rel="noopener">Nature Phys</a><a class="doi" href="https://arxiv.org/abs/2510.11678" target="_blank" rel="noopener">arXiv</a></div></div>
+                <div class="pub"><div class="pub-title">Optical probes of unconventional pairing states in transition metal dichalcogenides</div><div class="pub-auth"><span class="me">M. Á. Sánchez-Martínez</span>, D. Muñoz-Segovia, F. de Juan.</div><div class="pub-venue">Physical Review B (2026) · open access.</div><div class="pub-foot"><span class="tag">superconductivity</span><span class="tag">optics</span><a class="doi" href="https://doi.org/10.1103/s1wd-25dz" target="_blank" rel="noopener">DOI</a><a class="doi" href="https://doi.org/10.5281/zenodo.18436728" target="_blank" rel="noopener">code</a></div></div>
             </div>
-            <div>
-                <h3>Teaching material</h3>
-                <ul>
-                    <li><a href="#">Lecture notes (PDF)</a></li>
-                    <li><a href="#">Problem sets with solutions (PDF)</a></li>
-                    <li><a href="#">Example codes (GitHub)</a></li>
-                </ul>
 
-                <p class="small subtle">
-                    If you are a student interested in a Master’s or Bachelor’s project, please
-                    have a look at the <a href="#students" data-tab-target="students" class="tab-link-inline">Students</a> tab and get in touch by email.
-                </p>
+            <div class="pub-group">
+                <h3>Topological quasicrystalline matter</h3>
+                <div class="pub"><div class="pub-title">Fractal topology of Majorana bound states in superconducting quasicrystals</div><div class="pub-auth">W. Caiger, F. Flicker, <span class="me">M. Á. Sánchez-Martínez</span>.</div><div class="pub-venue">arXiv preprint (2026).</div><div class="pub-foot"><span class="tag">Majorana</span><span class="tag">quasicrystals</span><a class="doi" href="https://doi.org/10.48550/arXiv.2602.02796" target="_blank" rel="noopener">arXiv</a></div></div>
+                <div class="pub"><div class="pub-title">Giant optical response of multi-Weyl fermions stabilized by quasicrystalline symmetries</div><div class="pub-auth"><span class="me">M. Á. Sánchez-Martínez</span>, I. C. Fulga, D. Varjas, A. G. Grushin, F. Flicker.</div><div class="pub-venue">In preparation (2026).</div><div class="pub-foot"><span class="tag">quasicrystals</span><span class="tag">optics</span></div></div>
             </div>
-        </div>
-    </section> -->
 
-        <!-- TALKS TAB -->
-        <section id="talks" class="tab-panel">
-            <h2>Recent talks and seminars</h2>
-            <p class="subtle small">Selected recent invitations and conference contributions.</p>
-
-            <ul class="pub-list">
-                <li>
-                    <strong>Abundance of Majorana modes in quasicrystals</strong> (poster by W. Caiger,
-                    co‑supervised)<br>
-                    SDIQT25 International Workshop. Salamanca, Spain · Jun 2025.
-                </li>
-                <li>
-                    <strong>Unraveling Pines’ demon in Sr<sub>2</sub>RuO<sub>4</sub></strong> (invited)
-                    <br>University of Geneva (invited by Prof. Louk Rademaker). Geneva, Switzerland · Jun 2024.
-                </li>
-                <li>
-                    <strong>Linear optical response of chiral multifold fermions</strong><br>
-                    NGSCES 2024 International Conference. Girona, Spain · Oct 2024.
-                </li>
-                <li>
-                    <strong>Unraveling Pines’ demon in Sr<sub>2</sub>RuO<sub>4</sub></strong> (poster)<br>
-                    Electrons, Photons and Plasmons 2024 Workshop. Nyon, Switzerland · Jun 2024.
-                </li>
-                <li>
-                    <strong>Unraveling Pines’ demon in Sr<sub>2</sub>RuO<sub>4</sub></strong> (oral)
-                    <br>Condensed Matter Physics in the City 2024 · Jun 2024.
-                </li>
-                <li>
-                    <strong>Fingerprints of multifold fermions in optics: linear and nonlinear optical responses of CoSi
-                        and RhSi</strong> (oral)
-                    <br>APS March Meeting 2023, Session M25. Las Vegas, USA · Mar 2023.
-                </li>
-                <li>
-                    <strong>Unconventional fermions and where to find them: linear and nonlinear optical responses of
-                        CoSi and RhSi</strong> (poster)
-                    <br>GEFES 2023 (RSEF). Salamanca, Spain · 2023.
-                </li>
-                <li>
-                    <strong>Unconventional fermions and how to find them: optical probes of chiral multifold
-                        semimetals</strong> (oral)
-                    <br>International Focus Workshop in Topological Materials: From Weak to Strong Correlations. MPIPKS,
-                    Dresden, Germany · Apr 2022.
-                </li>
-                <li>
-                    <strong>Linear and nonlinear optical responses of chiral multifold semimetals</strong> (oral)
-                    <br>APS March Meeting 2022, Session Y59. Chicago, USA · Mar 2022. (MCAA Micro Travel Grant, SCHINEs)
-                </li>
-                <li>
-                    <strong>Optical signatures of multifold fermions in chiral topological semimetals RhSi and
-                        CoSi</strong> (poster)
-                    <br>LEES 2021: Low‑Energy Electrodynamics in Solids. Virtual · Jun–Jul 2021.
-                </li>
-                <li>
-                    <strong>Linear and nonlinear optical responses of chiral multifold semimetals</strong> (invited)
-                    <br>Nanyang Technological University (invited by Prof. Justin Song). Virtual · Sep 2021.
-                </li>
-                <li>
-                    <strong>Optical signatures of multifold fermions in RhSi and CoSi</strong> (oral)
-                    <br>APS March Meeting 2021, Session A45. Virtual · Mar 2021.
-                </li>
-                <li>
-                    <strong>Linear optical conductivity of the chiral multifold semimetal RhSi</strong> (poster)
-                    <br>Dynamics of Emerging Quasiparticles in Topological Dirac Materials (WE‑Heraeus 731). Bad Honnef,
-                    Germany · Oct 2020.
-                </li>
-                <li>
-                    <strong>Optical conductivity of the multifold semimetal RhSi</strong> (poster)
-                    <br>CMD 2020 GEFES (RSEF‑GEFES & EPS‑CMD). Virtual · Aug–Sep 2020.
-                </li>
-                <li>
-                    <strong>Charge dynamics of metallic and superconducting islands coupled to metallic leads</strong>
-                    (oral)
-                    <br>Microsoft Station Q Research Intern Talk. Santa Barbara, USA · Jun 2020.
-                </li>
-                <li>
-                    <strong>Blackboard Seminar: Multifold fermions in conventional crystals</strong>
-                    <br>Kavli Institute for Theoretical Physics (Spin & Heat Transport in Quantum and Topological
-                    Materials program). Santa Barbara, USA · Oct–Dec 2019.
-                </li>
-                <li>
-                    <strong>Linear optical response of chiral multifold fermions</strong> (poster)
-                    <br>Ultrafast and Nonlinear Dynamics of Quantum Materials. Univ. Paris‑Diderot, France · Jun 2019.
-                </li>
-                <li>
-                    <strong>Linear optical response of chiral multifold fermions</strong> (oral)
-                    <br>NGSCES 2018 International Conference. Donostia‑San Sebastián, Spain · Sep 2018.
-                </li>
-                <li>
-                    <strong>A paradigm for anomalies and non‑linear responses in topological matter</strong> (poster)
-                    <br>LETI Innovation Days, 2nd Quantum Engineering Day. Grenoble, France · Jul 2018.
-                </li>
-                <li>
-                    <strong>The role of the reconstruction parameter in MFP reconstruction technique</strong> (oral)
-                    <br>3rd Scientific Meeting of BCN‑b PhD Students in Nanoscience. Barcelona, Spain · Nov 2017.
-                </li>
-                <li>
-                    <strong>Impact of the regularization parameter in the MFP reconstruction technique</strong> (oral)
-                    <br>III Severo Ochoa Scientific Workshop. ICN2, Barcelona, Spain · Jun 2017.
-                </li>
-                <li>
-                    <strong>Dependence of the accumulation function on the regularization parameter in MFP
-                        reconstruction</strong> (poster)
-                    <br>Wave Phenomena and Phonon Thermal Transport. Oléron, France · Jun 2017.
-                </li>
-                <li>
-                    <strong>Study of the impact of the regularization parameter in the phonon MFP
-                        reconstruction</strong> (poster)
-                    <br>E‑MRS Spring Meeting. Strasbourg, France · May 2017.
-                </li>
-                <li>
-                    <strong>Perturbative quantization of Yang‑Mills theory with the classical double of su(N)</strong>
-                    (oral)
-                    <br>III Doctoral Conference of the University of Murcia. Murcia, Spain · May–Jun 2017.
-                </li>
-            </ul>
-        </section>
-
-        <!-- STUDENTS TAB -->
-        <section id="students" class="tab-panel">
-            <h2>Students</h2> <!--  and collaborations-->
-
-            <!-- <div class="two-col"> -->
-            <div>
-                <!--<h3>Current students</h3>-->
-                <!-- <h3>Supervised students</h3> -->
-                <ul>
-                    <li>
-                        <strong>William Caiger (MSc) </strong><br> <a href="https://willcaiger.com/" target="_blank"
-                            rel="noopener"> willcaiger.com</a><br>
-                        Topological Quantum Computation with Quasicrystals. HH Wills Physics Laboratory,
-                        University of Bristol. 2024/2025.
-                        <br>
-                        <figure>
-                            <img src="figures/sdiqt_conf.jpeg" alt="SDIQT 25 conference"
-                                style="max-width: 70%; height: auto;">
-                            <figcaption>William Caiger (left) and Miguel Ángel Sánchez (right) at the SDIQT 25
-                                conference, where William presented his poster on the <emph>Abundance of Majorana Bound
-                                    States in Quasicrystals</emph>.</figcaption>
-                        </figure>
-                    </li>
-                    <li>
-                        <strong>Nanda Girish (MSc)</strong><br>
-                        Topological Quantum Computation with Quasicrystals. HH Wills Physics Laboratory,
-                        University of Bristol. 2024/2025.
-                    </li>
-                </ul>
+            <div class="pub-group">
+                <h3>Multifold fermions &amp; nonlinear optics</h3>
+                <div class="pub"><div class="pub-title">Second-harmonic generation in the topological multifold semimetal RhSi</div><div class="pub-auth">B. Lu, S. Sayyad, <span class="me">M. Á. Sánchez-Martínez</span>, K. Manna, C. Felser, A. G. Grushin, D. Torchinsky.</div><div class="pub-venue">Phys. Rev. Research 4, L022022 (2022).</div><div class="pub-foot"><span class="tag">SHG</span><span class="tag">multifold</span><a class="doi" href="https://doi.org/10.1103/PhysRevResearch.4.L022022" target="_blank" rel="noopener">DOI</a></div></div>
+                <div class="pub"><div class="pub-title">Optical signatures of multifold fermions in the chiral topological semimetal CoSi</div><div class="pub-auth">B. Xu*, Z. Fang*, <span class="me">M. Á. Sánchez-Martínez*</span>, J. W. F. Venderbos, et al., A. G. Grushin, A. M. Rappe, L. Wu.</div><div class="pub-venue">PNAS 117, 2010752117 (2020).</div><div class="pub-foot"><span class="tag">multifold</span><span class="tag">optics</span><a class="doi" href="https://doi.org/10.1073/pnas.2010752117" target="_blank" rel="noopener">DOI</a></div></div>
+                <div class="pub"><div class="pub-title">Linear and nonlinear optical responses in the chiral multifold semimetal RhSi</div><div class="pub-auth">Z. Ni, B. Xu, <span class="me">M. Á. Sánchez-Martínez</span>, Y. Zhang, K. Manna, C. Bernhard, J. W. F. Venderbos, F. de Juan, C. Felser, A. G. Grushin, L. Wu.</div><div class="pub-venue">npj Quantum Materials 5, 96 (2020).</div><div class="pub-foot"><span class="tag">nonlinear optics</span><span class="tag">multifold</span><a class="doi" href="https://doi.org/10.1038/s41535-020-00187-y" target="_blank" rel="noopener">DOI</a></div></div>
+                <div class="pub"><div class="pub-title">Linear optical conductivity of chiral multifold fermions</div><div class="pub-auth"><span class="me">M. Á. Sánchez-Martínez</span>, F. de Juan, A. G. Grushin.</div><div class="pub-venue">Phys. Rev. B 99, 155145 (2019).</div><div class="pub-foot"><span class="tag">theory</span><span class="tag">multifold</span><a class="doi" href="https://doi.org/10.1103/PhysRevB.99.155145" target="_blank" rel="noopener">DOI</a></div></div>
             </div>
-            <!-- <div> -->
-            <!--<h3>Selected collaborations</h3>
-                <ul>
-                    <li>Topological materials theory with <em>Adolfo G. Grushin</em> (Néel Institute, CNRS).</li>
-                    <li>Optical response and superconductivity with <em>Fernando de Juan</em> (DIPC).</li>
-                    <li>Quasicrystals and collective modes with <em>Felix Flicker</em> (University of Bristol).</li>
-                </ul> -->
-            </div>
+
+            <div class="pub-group">
+                <h3>Other publications</h3>
+                <div class="pub"><div class="pub-title">Linear and nonlinear optical responses of chiral multifold semimetals</div><div class="pub-auth"><span class="me">M. Á. Sánchez-Martínez</span>.</div><div class="pub-venue">Springer Theses Series, Springer-Nature (2023).</div><div class="pub-foot"><span class="tag">book</span><a class="doi" href="https://link.springer.com/book/10.1007/978-3-031-25771-1" target="_blank" rel="noopener">DOI</a></div></div>
+                <div class="pub"><div class="pub-title">Spectral and optical properties of Ag₃Au(Se₂,Te₂) and dark matter detection</div><div class="pub-auth"><span class="me">M. Á. Sánchez-Martínez*</span>, I. Robredo*, A. Bidaurrazaga, A. Bergara, F. de Juan, A. G. Grushin, M. G. Vergniory.</div><div class="pub-venue">J. Phys. Mater. 3, 014001 (2019).</div><div class="pub-foot"><span class="tag">spectral</span><span class="tag">optics</span><a class="doi" href="https://doi.org/10.1088/2515-7639/ab3ea2" target="_blank" rel="noopener">DOI</a></div></div>
+                <div class="pub"><div class="pub-title">Impact of the regularization parameter in the mean free path reconstruction method</div><div class="pub-auth"><span class="me">M. Á. Sánchez-Martínez</span>, F. Alzina, J. Oyarzo, C. M. Sotomayor Torres, E. Chavez-Angel.</div><div class="pub-venue">Nanomaterials 9, 414 (2019).</div><div class="pub-foot"><span class="tag">phonons</span><a class="doi" href="https://doi.org/10.3390/nano9030414" target="_blank" rel="noopener">DOI</a></div></div>
             </div>
         </section>
 
-        <!-- CONTACT TAB -->
-        <section id="contact" class="tab-panel">
-            <h2>CV & Contact</h2>
+        <!--
+        TALKS section — hidden for now (kept here so it is easy to re-enable later:
+        remove this wrapping comment and uncomment the "Talks" link in the nav above).
+        <section id="talks">
+            <h2>Talks &amp; Seminars</h2>
+            <p>A complete record of invited talks, contributed talks and posters.</p>
 
+            <div class="talk-year"><div class="yr">2025</div><ul>
+                <li><strong>Abundance of Majorana modes in quasicrystals</strong> <span class="talk-type">poster · co-supervised (W. Caiger)</span><br><span class="where">SDIQT25 International Workshop · Salamanca, Spain · Jun 2025</span></li>
+            </ul></div>
+            <div class="talk-year"><div class="yr">2024</div><ul>
+                <li><strong>Unraveling Pines' demon in Sr<sub>2</sub>RuO<sub>4</sub></strong> <span class="talk-type">invited</span><br><span class="where">University of Geneva (host: Prof. Louk Rademaker) · Jun 2024</span></li>
+                <li><strong>Linear optical response of chiral multifold fermions</strong><br><span class="where">NGSCES 2024 International Conference · Girona, Spain · Oct 2024</span></li>
+                <li><strong>Unraveling Pines' demon in Sr<sub>2</sub>RuO<sub>4</sub></strong> <span class="talk-type">oral</span><br><span class="where">Condensed Matter Physics in the City 2024 · Jun 2024</span></li>
+                <li><strong>Unraveling Pines' demon in Sr<sub>2</sub>RuO<sub>4</sub></strong> <span class="talk-type">poster</span><br><span class="where">Electrons, Photons and Plasmons 2024 · Nyon, Switzerland · Jun 2024</span></li>
+            </ul></div>
+            <div class="talk-year"><div class="yr">2023</div><ul>
+                <li><strong>Fingerprints of multifold fermions in optics: CoSi and RhSi</strong> <span class="talk-type">oral</span><br><span class="where">APS March Meeting 2023, Session M25 · Las Vegas, USA · Mar 2023</span></li>
+                <li><strong>Unconventional fermions and where to find them</strong> <span class="talk-type">poster</span><br><span class="where">GEFES 2023 (RSEF) · Salamanca, Spain · 2023</span></li>
+            </ul></div>
+            <div class="talk-year"><div class="yr">2022</div><ul>
+                <li><strong>Unconventional fermions and how to find them: optical probes of chiral multifold semimetals</strong> <span class="talk-type">oral</span><br><span class="where">Focus Workshop on Topological Materials, MPIPKS · Dresden, Germany · Apr 2022</span></li>
+                <li><strong>Linear and nonlinear optical responses of chiral multifold semimetals</strong> <span class="talk-type">oral</span><br><span class="where">APS March Meeting 2022, Session Y59 · Chicago, USA · Mar 2022 (MCAA Travel Grant)</span></li>
+            </ul></div>
+            <div class="talk-year"><div class="yr">2021</div><ul>
+                <li><strong>Linear and nonlinear optical responses of chiral multifold semimetals</strong> <span class="talk-type">invited</span><br><span class="where">Nanyang Technological University (host: Prof. Justin Song) · Virtual · Sep 2021</span></li>
+                <li><strong>Optical signatures of multifold fermions in RhSi and CoSi</strong> <span class="talk-type">poster</span><br><span class="where">LEES 2021: Low-Energy Electrodynamics in Solids · Virtual · Jun–Jul 2021</span></li>
+                <li><strong>Optical signatures of multifold fermions in RhSi and CoSi</strong> <span class="talk-type">oral</span><br><span class="where">APS March Meeting 2021, Session A45 · Virtual · Mar 2021</span></li>
+            </ul></div>
+            <div class="talk-year"><div class="yr">2020</div><ul>
+                <li><strong>Linear optical conductivity of the chiral multifold semimetal RhSi</strong> <span class="talk-type">poster</span><br><span class="where">Dynamics of Emerging Quasiparticles (WE-Heraeus 731) · Bad Honnef, Germany · Oct 2020</span></li>
+                <li><strong>Optical conductivity of the multifold semimetal RhSi</strong> <span class="talk-type">poster</span><br><span class="where">CMD 2020 GEFES (RSEF-GEFES &amp; EPS-CMD) · Virtual · Aug–Sep 2020</span></li>
+                <li><strong>Charge dynamics of metallic and superconducting islands coupled to metallic leads</strong> <span class="talk-type">oral</span><br><span class="where">Microsoft Station Q Research Intern Talk · Santa Barbara, USA · Jun 2020</span></li>
+            </ul></div>
+            <div class="talk-year"><div class="yr">2019</div><ul>
+                <li><strong>Blackboard Seminar: Multifold fermions in conventional crystals</strong><br><span class="where">Kavli Institute for Theoretical Physics (KITP) · Santa Barbara, USA · Oct–Dec 2019</span></li>
+                <li><strong>Linear optical response of chiral multifold fermions</strong> <span class="talk-type">poster</span><br><span class="where">Ultrafast and Nonlinear Dynamics of Quantum Materials · Univ. Paris-Diderot, France · Jun 2019</span></li>
+            </ul></div>
+            <div class="talk-year"><div class="yr">2018</div><ul>
+                <li><strong>Linear optical response of chiral multifold fermions</strong> <span class="talk-type">oral</span><br><span class="where">NGSCES 2018 International Conference · Donostia-San Sebastián, Spain · Sep 2018</span></li>
+                <li><strong>A paradigm for anomalies and non-linear responses in topological matter</strong> <span class="talk-type">poster</span><br><span class="where">LETI Innovation Days, 2nd Quantum Engineering Day · Grenoble, France · Jul 2018</span></li>
+            </ul></div>
+            <div class="talk-year"><div class="yr">2017</div><ul>
+                <li><strong>The role of the reconstruction parameter in MFP reconstruction</strong> <span class="talk-type">oral</span><br><span class="where">3rd Scientific Meeting of BCN-b PhD Students · Barcelona, Spain · Nov 2017</span></li>
+                <li><strong>Impact of the regularization parameter in the MFP reconstruction technique</strong> <span class="talk-type">oral</span><br><span class="where">III Severo Ochoa Scientific Workshop, ICN2 · Barcelona, Spain · Jun 2017</span></li>
+                <li><strong>Dependence of the accumulation function on the regularization parameter</strong> <span class="talk-type">poster</span><br><span class="where">Wave Phenomena and Phonon Thermal Transport · Oléron, France · Jun 2017</span></li>
+                <li><strong>Study of the impact of the regularization parameter in phonon MFP reconstruction</strong> <span class="talk-type">poster</span><br><span class="where">E-MRS Spring Meeting · Strasbourg, France · May 2017</span></li>
+                <li><strong>Perturbative quantization of Yang-Mills theory with the classical double of su(N)</strong> <span class="talk-type">oral</span><br><span class="where">III Doctoral Conference, University of Murcia · Murcia, Spain · May–Jun 2017</span></li>
+            </ul></div>
+        </section>
+        -->
+
+        <!-- NEWS -->
+        <section id="news">
+            <h2>News &amp; Blog</h2>
+            <div class="posts">
+                <article class="post"><div class="meta"><span class="badge">Research</span> Jun 2026</div><h3>Our herbertsmithite paper is out in Nature Physics!</h3><p>After a long journey, our work on the quantum spin liquid candidate herbertsmithite is finally published in Nature Physics. Together with the team led by J. C. Séamus Davis, we combine experiment and theory to show how spinons — the fractionalized excitations of the kagome lattice — mediate the spin dynamics and shape the ground state of this remarkable material. <a href="https://www.nature.com/articles/s41567-026-03303-6" target="_blank" rel="noopener">Read it in Nature Physics →</a> · <a href="https://arxiv.org/abs/2510.11678" target="_blank" rel="noopener">Preprint →</a></p></article>
+                <article class="post"><div class="meta"><span class="badge">Research</span> Feb 2026</div><h3>It took 67 years to discover Pines' demon — ours is even stranger</h3><p>Predicted in 1956, discovered only in 2023; in Sr₂RuO₄ it disagrees with the acoustic dispersion it should follow. We show the demon develops a universal momentum gap from momentum relaxation — reminiscent of a tachyon. <a href="https://doi.org/10.48550/arXiv.2603.17002" target="_blank" rel="noopener">Read the preprint →</a></p></article>
+                <article class="post"><div class="meta"><span class="badge">Research</span> Feb 2026</div><h3>Fractal topology of Majoranas in quasicrystals</h3><p>We submitted a paper on Majorana bound states in superconducting quasicrystals — some genuinely surprising results. <a href="https://arxiv.org/abs/2602.02796" target="_blank" rel="noopener">Read the preprint →</a></p></article>
+                <article class="post"><div class="meta"><span class="badge">Research</span> Feb 2026</div><h3>Using light to test topological superconductivity</h3><p>Published open-access in Physical Review B, with the code released on Zenodo. <a href="https://doi.org/10.1103/s1wd-25dz" target="_blank" rel="noopener">Paper →</a> · <a href="https://doi.org/10.5281/zenodo.18436728" target="_blank" rel="noopener">Code →</a></p></article>
+                <article class="post"><div class="meta"><span class="badge">Community</span> Oct 2025</div><h3>Julia Hannukainen's all-female speaker line-up report</h3><p>Our colleague Julia Hannukainen wrote a fantastic piece on the Grete Hermann Network workshop. <a href="https://www.nature.com/articles/s42254-025-00872-y" target="_blank" rel="noopener">Read it →</a></p></article>
+            </div>
+        </section>
+
+        <!-- STUDENTS -->
+        <section id="students">
+            <h2>Students</h2>
+            <div class="student">
+                <h3>William Caiger (MSc) — <a href="https://willcaiger.com/" target="_blank" rel="noopener">willcaiger.com</a></h3>
+                <p>Topological Quantum Computation with Quasicrystals · H.H. Wills Physics Laboratory, University of Bristol · 2024/2025.</p>
+                <figure>
+                    <img src="figures/sdiqt_conf.jpeg" alt="William Caiger and Miguel Ángel Sánchez Martínez at the SDIQT 25 conference">
+                    <figcaption>William Caiger (left) and Miguel Ángel Sánchez (right) at SDIQT 25, where William presented his poster on the <em>Abundance of Majorana Bound States in Quasicrystals</em>.</figcaption>
+                </figure>
+            </div>
+            <div class="student">
+                <h3>Nanda Girish (MSc)</h3>
+                <p>Topological Quantum Computation with Quasicrystals · H.H. Wills Physics Laboratory, University of Bristol · 2024/2025.</p>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact">
+            <h2>CV &amp; Contact</h2>
             <div class="contact-grid">
-                <div>
+                <div class="contact-card">
                     <h3>Contact</h3>
-                    <p>
-                        <strong>Email:</strong> <a
-                            href="mailto:contact@masanchezmartinez.com">contact@masanchezmartinez.com</a><br>
-                        <strong>Office:</strong> Office 3.52, Department of Theoretical Physics<br>
-                        <strong>Postal address:</strong><br>
-                        H.H. Wills Physics Laboratory<br>
-                        University of Bristol<br>
-                        Tyndall Avenue, Bristol BS8 1TL, United Kingdom
-                    </p>
-                    <p class="small">
-                        If you are interested in collaborations, research visits, or Master’s/PhD positions,
-                        feel free to email me with your CV and a short description of your research interests.
-                    </p>
+                    <p><strong>Email:</strong> <a href="mailto:contact@masanchezmartinez.com">contact@masanchezmartinez.com</a><br>
+                    <strong>Office:</strong> Office 3.52, Department of Theoretical Physics<br>
+                    H.H. Wills Physics Laboratory, University of Bristol<br>Tyndall Avenue, Bristol BS8 1TL, UK</p>
+                    <p style="font-size:.9rem">For collaborations, research visits, or Master's / PhD positions, email me with your CV and a short description of your research interests.</p>
                 </div>
-                <div>
+                <div class="contact-card">
                     <h3>Curriculum Vitae</h3>
-                    <p>
-                        You can download my CV here:
-                    </p>
-                    <ul>
-                        <li><a href="sanchez_martinez_miguel_angel_2026_05_cv.pdf">Full CV (PDF)</a></li>
-                        <!--<li><a href="cv_first_last_short.pdf">Short CV / research statement (PDF)</a></li>-->
-                    </ul>
-                    <p class="small subtle">
-                        Last updated: 05/2026.
-                    </p>
+                    <p>Download my full CV as a PDF.</p>
+                    <a class="btn btn-primary" href="sanchez_martinez_miguel_angel_2026_05_cv.pdf" target="_blank" rel="noopener">↓ Download CV (PDF)</a>
+                    <p style="font-size:.82rem;color:var(--faint);margin-top:1rem">Last updated: May 2026.</p>
                 </div>
             </div>
-
-            <div class="footer-note">
-                &copy; <span id="year"></span> Miguel Ángel Sánchez Martínez · This page is hand-written in HTML/CSS.
-            </div>
+            <div class="foot">© <span id="year"></span> Miguel Ángel Sánchez Martínez · masanchezmartinez.com · hand-written in HTML &amp; CSS.</div>
         </section>
     </main>
 
     <script>
-        // Tab logic
-        const tabLinks = document.querySelectorAll('.tab-link[data-tab-target]');
-        const panels = document.querySelectorAll('.tab-panel');
-
-        function activateTab(targetId) {
-            panels.forEach(panel => {
-                panel.classList.toggle('active', panel.id === targetId);
-            });
-            tabLinks.forEach(link => {
-                link.classList.toggle('active', link.dataset.tabTarget === targetId);
-            });
-            history.replaceState(null, '', '#' + targetId);
-        }
-
-        tabLinks.forEach(link => {
-            link.addEventListener('click', (e) => {
-                e.preventDefault();
-                const targetId = link.dataset.tabTarget;
-                activateTab(targetId);
-            });
-        });
-
-        // Allow inline links inside text to switch tabs too
-        document.querySelectorAll('.tab-link-inline[data-tab-target]').forEach(link => {
-            link.addEventListener('click', (e) => {
-                e.preventDefault();
-                const targetId = link.dataset.tabTarget;
-                activateTab(targetId);
-            });
-        });
-
-        // On load: pick tab from hash if present
-        window.addEventListener('DOMContentLoaded', () => {
-            const hash = window.location.hash.replace('#', '');
-            if (hash) {
-                const targetPanel = document.getElementById(hash);
-                if (targetPanel) {
-                    activateTab(hash);
+        document.getElementById('year').textContent = new Date().getFullYear();
+        const links = [...document.querySelectorAll('header nav a')];
+        const byId = {};
+        links.forEach(a => byId[a.getAttribute('href').slice(1)] = a);
+        const obs = new IntersectionObserver((entries) => {
+            entries.forEach(e => {
+                if (e.isIntersecting) {
+                    links.forEach(a => a.classList.remove('active'));
+                    if (byId[e.target.id]) byId[e.target.id].classList.add('active');
                 }
-            }
-            document.getElementById('year').textContent = new Date().getFullYear();
-        });
+            });
+        }, { rootMargin: '-40% 0px -55% 0px' });
+        document.querySelectorAll('section[id]').forEach(s => obs.observe(s));
     </script>
 </body>
 
